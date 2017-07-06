@@ -1,0 +1,486 @@
+
+body{
+	margin: 0;
+	font-family: helvetica, serif;
+}
+img{
+	/* max-width: 100%; */
+}
+
+.container{
+	width: 1200px; 
+	 margin-left: auto; 
+	margin-right: auto; 
+}
+
+/* ------- header --------*/
+
+.header{
+	background-color: #000;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	padding: 5px 0;
+}
+
+	.header__container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+/* ------- header fin --------*/
+
+/* ------- menu --------*/
+
+.menu__list{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+	.menu__item{
+	
+	}
+	.menu__link{
+		text-decoration: none;
+		display: block;
+		padding: 0px 10px;
+		color: #fff;
+		border-right: solid 1px #fff;
+		transition: all 0.4s;
+	}
+	.menu__link:hover{
+		color: #61d1d1;
+	}
+/* ------- menu fin--------*/
+
+/* ------- redes sociales --------*/
+.social{
+	font-size: 35px;
+	margin: 0;
+}
+	.social__item{
+		/* display: inline-flex; */
+		width: 40px;
+		height: 40px;
+		margin-left: 15px;
+		border-radius: 50%;
+		background-color: #fff;
+		border: solid 0px;
+		color: #fff;
+		cursor: pointer;
+		display: inline-block;
+		line-height: 40px;
+		text-align: center;
+		font-size: 25px;
+	}
+	.social__item:hover{
+			background-color: #61d1d1;
+	}
+	.social__link{
+		color: #000;
+	}
+
+/* ------- redes sociales fin --------*/
+
+/* ------- banner--------*/
+
+.banner__body{
+	text-align: center;
+	position: relative;
+	top: -855px;
+	color: #fff;
+}
+	.banner__title{
+		font-size: 125px;
+	}
+	.banner__tagline{
+		font-size: 50px;
+		position: relative;
+		top: -35px;
+	}
+	
+	.banner__image{
+		width: 100%;
+		/* height: 100vh; */
+		object-fit: cover;
+		object-position: center top 40px;
+	}
+
+/* ------- banner fin --------*/
+
+/*.banner{
+
+	background-image: url(../images/cesarbanner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 1509px;
+	width: 2110px;
+	margin-left: -157px;
+	margin-top: -360px;
+	margin-top: -260px;
+}*/
+
+/* ------- sobre mi --------*/
+
+.infototal{
+	display: inline-flex;
+}
+
+.perfil{
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 140px;
+	border-radius: 50px;
+}
+.perfil2{margin-left: 615px;margin-right: 215px;margin-top: -890px;color: #fff;}
+.info__title{
+	display: inline-block;
+	font-size: 60px;
+}
+	.info{
+		display: inline-block;
+		font-size: 24px;
+		margin-top: -35px;
+	}
+
+.back1{
+	background-color: #202020;
+	margin-top: -262px;
+	height: 1130px;
+}
+/* ------- sobre mi fin --------*/
+
+/* ------- conocimientos --------*/
+
+.back2{
+	background-color: #343434;
+	height: 460px;
+	margin-top: -41px;
+}
+.title__box1{
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	padding: 85px;
+	/* position: relative; */
+	/* top: 70px; */
+}
+
+.box1{
+	display: inline-table;
+	color: #fff;
+	width: 200px;
+	margin-left: 200px;
+	margin-right: -80px;
+}
+
+.porsiento{
+    padding: 10px 1px 5px 60px;
+    border: solid 1px;
+    background: linear-gradient( 90deg, #db9600,  #db9600, rgba(97, 209, 209, 0), rgba(105, 58, 8, 0));
+}
+
+.porsiento2{
+    padding: 10px 1px 5px 60px;
+    border: solid 1px;
+    background: linear-gradient( 90deg, #61d1d1,  rgba(97, 209, 209, 0.75),  rgba(97, 209, 209, 0), rgba(97, 209, 209, 0), rgba(105, 58, 8, 0));
+}
+
+.porsiento3{
+    padding: 10px 1px 5px 60px;
+    border: solid 1px;
+    background: linear-gradient( 90deg, #eef100,  rgba(97, 209, 209, 0),  rgba(97, 209, 209, 0), rgba(97, 209, 209, 0), rgba(105, 58, 8, 0));
+}
+/* ------- conocimientos FIN --------*/
+
+/* ------- servicios --------*/
+.servicios{
+
+position: relative;
+
+top: 65px;
+}
+	.servicios__tagline{
+		
+display: inline-flex;
+		
+width: 446px;
+		
+margin-right: -138px;
+		
+margin-left: 75px;
+		
+position: relative;
+		
+top: -674px;
+		
+color: #fff;
+		
+font-size: 30px;
+	}
+.servicios__title{
+	font-size: 60px;
+}
+.servicios__img{
+
+display: inline-flex;
+
+margin-left: auto;
+
+width: 386px;
+}
+.servicios__item{
+	display: inline-flex;
+	position: relative;
+	top: -590px;
+	margin-left: 527px;
+	margin-right: -475px;
+	width: 303px;
+	color: #fff;
+}
+.back3{
+	background-color: #202020;
+	margin-top: -16px;
+}
+
+
+/* ------- servicios FIN --------*/
+
+
+/* ------- portafolio --------*/
+
+.portafolio__todo{
+	position: relative;
+	top: 100px;
+}
+
+.porta__title{
+	font-size: 60px;
+	text-align: center;
+	color: #fff;
+}
+	.porta{
+
+text-align: center;
+}
+	.porta__item{
+		display: inline-flex;
+		margin-left: 56px;
+		margin-right: -10px;
+	}
+	.porta__link{
+		text-decoration: none;
+		color: #fff;
+	}
+	.porta__link:hover{
+		color: #61d1d1;
+	}
+.back4{
+	background-color: #343434;
+	margin-top: -50px;
+	height: 1400px;
+}
+
+
+/* ------- GALLERY --------*/
+
+.gallery{
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+	.gallery__item{
+		display: inline-block;
+		margin: 20px;
+		width: 485px;
+		margin-left: 100px;
+		/* margin-top: -100px; */
+		margin-right: -219px;
+	}
+	.gallery__link{
+		display: block;
+	}
+	.gallery__image{
+		display: block;
+	}
+
+
+/* ------- GALLERY FIN--------*/
+
+/* ------- portafolio --------*/
+
+
+
+
+/* ------- clientes --------*/
+
+.clientes__todo{position: relative;top: 140px;}
+
+.clientes__title{
+	text-align: center;
+	font-size: 60px;
+	color: #fff;
+}
+.clientes__item{
+	
+display: inline-flex;
+	
+width: 383px;
+	
+margin-left: auto;
+}
+
+.back5{
+	background-color: #202020;
+	margin-top: -55px;
+	height: 540px;
+}
+
+/* ------- clientes fin --------*/
+
+
+/* ------- contacto --------*/
+
+
+/* ------- FORMULARIO --------*/
+
+
+.form{
+	width: 1341px;
+	position: relative;
+	top: 190px;
+	margin: 30px auto;
+}
+	.form__field{
+		margin: 1px 40px 40px -10px;
+		width: 413px;
+		padding: 15px;
+		display: inline-block;
+		background-color: #020202;
+		font-family: inherit;
+		border: solid #61d1d1;
+	}
+		.form__field:focus{
+			background-color: #ffffff;
+		}
+		.form__field--textarea{
+			width: 895px;
+			height: 165px;
+		}
+
+	.form__btn{
+		background-color: #000;
+		color: #fff;
+		padding: 10px 45px;
+		font-size: 20px;
+		border-radius: 5px;
+		text-transform: uppercase;
+		border: solid #61d1d1;
+		box-shadow: 1px 10px 10px #61d1d1;
+		margin: 10px 770px;
+		display: block;
+		cursor: pointer;
+	}
+
+/* ------- FORMULARIO FIN --------*/
+
+.contacto{
+	display: inline-flex;
+}
+
+.banner__contacto{
+	background-image: url(../images/Contacto_banner.jpg);
+	width: auto;
+	height: 1020px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -50px;
+}
+.contacto__item{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #fff;
+	border: solid 0px;
+	color: #000;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	font-size: 25px;
+}
+.contacto__title{
+	text-align: center;
+	font-size: 60px;
+	position: relative;
+	top: 170px;
+	color: #fff;
+}
+.contacto__todo{
+	margin-left: 935px;
+	margin-top: -270px;
+}
+
+.contacto__link{
+	
+color: #000;
+}
+
+.contacto__item:hover{
+			background-color: #61d1d1;
+
+}
+
+.asd{
+	display: inline-block;
+	margin: auto -30px;
+}
+	.asd1{
+
+font-size: 25px;
+
+color: #fff;
+
+list-style: none;
+
+}
+	.asd2{
+		
+list-style: none;
+		
+color: #fff;
+	}
+
+/* ------- contacto fin --------*/
+
+/* ------- footer --------*/
+
+.fondo_footer{
+	background-color: #000;
+	height: 600px;
+	margin-top: -20px;
+}
+	.title2{
+		text-align: center;
+		color: #fff;
+		position: relative;
+		top: 150px;
+	}
+
+	.seguir{
+		text-align: center;
+		position: relative;
+		top: 160px;
+		color: #fff;
+		font-size: 30px;
+	}
+
+.social2{
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+
+/* ------- Footer FIN --------*/
